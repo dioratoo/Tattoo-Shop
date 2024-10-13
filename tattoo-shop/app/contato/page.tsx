@@ -16,7 +16,7 @@ export default function Contato() {
           </p>
         </h1>
         <Link target="_blank" href="https://wa.me//3138310085">
-          <button className="bg-zinc-700 p-4 border-b-4 border-zinc-800 rounded flex items-center gap-4 mt-10">
+          <button className="transition ease-in-out delay-150 hover:scale-110 bg-zinc-700 p-4 border-b-4 border-zinc-800 rounded flex items-center gap-4 mt-10">
             <FaWhatsapp className="w-8 h-8" />
             <div>
               <p>Enviar Whatsapp</p>
@@ -24,9 +24,12 @@ export default function Contato() {
             </div>
           </button>
         </Link>
-
       </section>
-        <Image width={600} src={tattooImage} alt="Foto do Sandro fazendo um tattoo" />
+      <Image
+        width={600}
+        src={tattooImage}
+        alt="Foto do Sandro fazendo um tattoo"
+      />
     </main>
   );
 }
